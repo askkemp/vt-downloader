@@ -462,10 +462,6 @@ def vt_download(list_of_filenames, output_base_directory, api_type):
 
     return return_outout
 
-import json 
-import elasticsearch
-from datetime import datetime
-
 def elasticsearch_setup():
     """
     Creates ElasticSearch index template, the ILM policy, and bootstraps the index.
